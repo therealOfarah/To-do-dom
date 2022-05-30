@@ -6,9 +6,12 @@ console.log(btn)
 btn.addEventListener("click" , function(evt){
     const li = document.createElement('li')
     const inpt = document.getElementById("list-items")
-    li.textContent = inpt.value
-    document.querySelector("ul").appendChild(li)
+    li.textContent = inpt.value 
+      document.querySelector("ul").appendChild(li)
     inpt.value=""
-    console.log(inpt.value)
+    // console.log(inpt.value)
+    // if (li === ""){
+  
+    // }
 
   });
