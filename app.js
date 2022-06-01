@@ -1,22 +1,31 @@
 // console.log("Omars List")
 const btn = document.getElementById("submit-button")
-// const inpt = document.getElementById("list-items")
 const ul = document.getElementById("todo-list")
-console.log(btn)
+const revBtn = document.getElementById("reverse-button")
+const form = document.querySelector("form")
+
+
+form.addEventListener('submit', function(evt) {
+  evt.preventDefault()
+ 
+})
+// const list =document.getElementById("To-do").style.textAlign ="center"
 btn.addEventListener("click" , function(evt){
     const li = document.createElement('li')
     const inpt = document.getElementById("list-items")
+    list.classname = "list"
     li.textContent = inpt.value 
-    if(li.textContent === ""){
-      
+    
+    if(li.textContent === ""){   
     }
     else{
       document.querySelector("ul").appendChild(li)
     }
     inpt.value=""
-    // console.log(inpt.value)
-    // if (li === ""){
-  
-    // }
-
+    
   });
+ul.addEventListener("click", onClick)
+
+function onClick(event){
+  event.target.hidden =true
+} 

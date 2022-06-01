@@ -1,0 +1,27 @@
+/* form{
+  list-style-position:inside;
+  align-items: center;
+}
+ */body{
+  text-align: center;
+  align-items: center;
+  /* height: 90vh; */
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div{
+  text-align: center;
+}
+ul{
+  text-align: center;
+  align-items: center;
+  /* list-style-position:inside; */
+  max-width: 1%;
+  padding-left: 0px;
+  display: inline-block;
+  
+}
+/* li ::marker{ */
+
